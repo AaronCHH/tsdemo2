@@ -1,24 +1,24 @@
 {
-  "name": "tsdemo1",
+  "name": "tsdemo2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start:build": "tsc -w",
-    "start:run": "nodemon dist/index.js",
+    "start:run": "nodemon build/index.js",
     "start": "concurrently npm:start:*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AaronCHH/tsdemo1.git"
+    "url": "git+https://github.com/AaronCHH/tsdemo2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AaronCHH/tsdemo1/issues"
+    "url": "https://github.com/AaronCHH/tsdemo2/issues"
   },
-  "homepage": "https://github.com/AaronCHH/tsdemo1#readme",
+  "homepage": "https://github.com/AaronCHH/tsdemo2#readme",
   "dependencies": {
     "concurrently": "^7.1.0",
     "nodemon": "^2.0.15"
